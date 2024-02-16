@@ -1,0 +1,203 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: white;
+}
+
+body {
+  background: rgb(0, 2, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 11, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-div {
+  width: 85vw;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+  .logo-div {
+    width: 8vw;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.logo-nav-div {
+  width: 60vw;
+  height: inherit;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 50vw;
+  height: inherit;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+
+.sign-in-div {
+  width: 15vw;
+  height: inherit;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i {
+  font-size: 25px;
+}
+.btn-1 {
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.btn-2 {
+  width: 100px;
+  height: 30px;
+  color: black;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+main {
+  width: screen;
+  height: screen;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-div {
+  width: 85vw;
+  height: inherit;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* .you{
+width: 85vw;
+  height: inherit;
+   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+
+} */
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-weight: 50px;
+  font-size: 90px;
+}
+
+.p {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.btn-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  font-size: medium;
+  color: black;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 4px 10px black;
+}
+.main-div2 {
+  display: flex;
+  width: 20vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.speaker {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 80px;
+  height: 1vh;
+  top: 20px;
+  border-radius: 3px;
+}
+.whatever {
+  height: 55vh;
+  background: rgb(0, 2, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 11, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+span {
+  position: relative;
+  top: 120px;
+  display: inline-block;
+  width: 80px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  padding: 5px 10px;
+  color: black;
+}
+
+.but {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  bottom: 10px;
+  text-align: center;
+  box-shadow: 1px 2px 5px black;
+}
